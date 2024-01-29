@@ -21,9 +21,14 @@ const Hero = () => {
           <h1 className={`${styles.heroHeadText} text-white`}>
             Hi, I'm <span className=' neon-text'>Mikita</span>
           </h1>
-          <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I develop user <br className='sm:block hidden' />
-            interfaces and web applications
+          <p className={`${styles.heroSubText} mt-6 text-white-100`}>
+            I build things for <span className="line-through decoration-heroStroke relative">
+            the web 
+              <span className="hero-stroke absolute lg:-top-8 sm:-top-8 xs:-top-6 -top-5 lg:right-2 sm:right-1 xs:right-1 right-1.5">
+                people
+              </span>
+            </span>
+            
           </p>
         </div>
         
